@@ -6,7 +6,7 @@ CrimeCam is an AI-powered smart surveillance system that automatically detects:
 - 🚶‍♂️ **Loitering** (people standing still for too long)
 - 📩 Sends real-time **alerts to Telegram** with screenshots
 
----
+----
 
 ## 📦 Features
 
@@ -17,25 +17,41 @@ CrimeCam is an AI-powered smart surveillance system that automatically detects:
 - ✅ Telegram message + photo alert system  
 - ✅ Clean modular code structure
 
----
+----
 
 ## 📁 Project Structure
 
-Crime Cam/
-│
-├── main.py
-├── face_recog.py
-├── telegram_alert.py
-├── requirements.txt
-├── README.md
-|
-├── known_faces/
-| └── yourimg.jpeg, jpg
-│
-└── screenshots/
+CrimeCam/ > main.py > face_recog.py > telegram_alert.py > known_faces/ > yourimages.jpeg, jpg > screenshots/
 
+----
 
----
+## 📋Install requirements
+```bash 
+pip install -r requirements.txt
+```
+
+----
+
+## 🛠️ Telegram Bot Setup
+### Create a bot using @BotFather
+```bash
+Get your BOT_TOKEN
+```
+### You can use @userinfobot to get your ID
+  ```bash
+Get your USER_ID
+```
+Start a chat with your bot and get your CHAT_ID
+(You can use @userinfobot to get your ID)
+
+----
+
+### Add credentials
+Edit the file ```alert/telegram_alert.py```:
+```bash
+BOT_TOKEN = "your-bot-token-here"
+CHAT_ID = "your-chat-id-here"
+```
 
 ## ⚙️ Installation
 
@@ -43,4 +59,6 @@ Crime Cam/
 ```bash
 git clone https://github.com/SiddharthRiot/crimecam.git
 cd crimecam
+```
+
 
