@@ -9,11 +9,11 @@ vs BuildTools.exe
 cmake
 requests
 dlib
-Install Visual C++ Build Tools (Official Way) # its automatically installed MSVC, windows 10 SDK and cpp cmake tools !!!
+Install Visual C++ Build Tools (Official Way)   # its automatically installed MSVC, windows 10 SDK and cpp cmake tools !!!
 
 
-bot_token = "61234...:AAbcXYZ..."       # From @BotFather Telegram
-chat_id = "XXXXXXXXXX"                  # From @userinfobot Telegram
+bot_token = "61234...:AAbcXYZ..."               # From @BotFather Telegram
+chat_id = "XXXXXXXXXX"                          # From @userinfobot Telegram
 
 
 
