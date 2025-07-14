@@ -1,0 +1,19 @@
+python 3.8 to 3.11 recommended
+ultralytics(YOLOv8m)
+opencv-python
+numpy
+python-telegram-bot==13.15
+face_recognition
+cmake windows-x86 64.msi
+vs BuildTools.exe
+cmake
+requests
+dlib
+Install Visual C++ Build Tools (Official Way) # its automatically installed MSVC, windows 10 SDK and cpp cmake tools !!!
+
+
+bot_token = "61234...:AAbcXYZ..."  # From @BotFather Telegram
+chat_id = "XXXXXXXXXX"                  # From @userinfobot Telegram
+
+
+
